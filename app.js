@@ -3,15 +3,15 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, si
 import { getFirestore, collection, addDoc, query, where, orderBy, getDocs, updateDoc, deleteDoc, doc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js';
 import { getStorage, ref, uploadBytes, getDownloadURL, deleteObject } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-storage.js';
 import { getAnalytics, logEvent } from 'https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js';
-
+// put your project's config here
 const firebaseConfig = {
-    apiKey: "AIzaSyArECxvGeXh-hJWNuqSQIZW1xTMdq7Q3qw",
-    authDomain: "productive-6a479.firebaseapp.com",
-    projectId: "productive-6a479",
-    storageBucket: "productive-6a479.firebasestorage.app",
-    messagingSenderId: "94313586618",
-    appId: "1:94313586618:web:8fba2e73577020bbee0783",
-    measurementId: "G-ZWZ66KWQLH"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
   
   const app = initializeApp(firebaseConfig);
@@ -190,12 +190,12 @@ const firebaseConfig = {
       }
   }
 const firebaseConfig2 = {
-    apiKey: "AIzaSyDneyhBPRMgl-gP_3xh33MuNiGSz_03YPs",
-    authDomain: "mttcode.firebaseapp.com",
-    projectId: "mttcode",
-    storageBucket: "mttcode.appspot.com",
-    messagingSenderId: "630582975513",
-    appId: "1:630582975513:web:94625a01b98d9a65281e88"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   };
 const app2 = initializeApp(firebaseConfig2,"secondary");
 const storage = getStorage(app2);
